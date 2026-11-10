@@ -1,0 +1,284 @@
+
+/private/tmp/claude-501/-Users-jack/0c8927f7-48e8-4353-9620-93e841cc2273/scratchpad/macpaint-features/bin/CODE0.bin:     file format binary
+
+
+Disassembly of section .data:
+
+00000000 <.data>:
+   0:	0000 0340      	orib #64,%d0
+   4:	0000 6858      	orib #88,%d0
+   8:	0000 0320      	orib #32,%d0
+   c:	0000 0020      	orib #32,%d0
+  10:	5316           	subqb #1,%fp@
+  12:	3f3c 0001      	movew #1,%sp@-
+  16:	a9f0           	.short 0xa9f0
+  18:	05e2           	bset %d2,%a2@-
+  1a:	3f3c 0001      	movew #1,%sp@-
+  1e:	a9f0           	.short 0xa9f0
+  20:	0674 3f3c 0001 	addiw #16188,%a4@(1,%d0:w)
+  26:	a9f0           	.short 0xa9f0
+  28:	0466 3f3c      	subiw #16188,%fp@-
+  2c:	0001 a9f0      	orib #-16,%d1
+  30:	3ed0           	movew %a0@,%sp@+
+  32:	3f3c 0001      	movew #1,%sp@-
+  36:	a9f0           	.short 0xa9f0
+  38:	5e5e           	addqw #7,%fp@+
+  3a:	3f3c 0001      	movew #1,%sp@-
+  3e:	a9f0           	.short 0xa9f0
+  40:	5e06           	addqb #7,%d6
+  42:	3f3c 0001      	movew #1,%sp@-
+  46:	a9f0           	.short 0xa9f0
+  48:	5e48           	addqw #7,%a0
+  4a:	3f3c 0001      	movew #1,%sp@-
+  4e:	a9f0           	.short 0xa9f0
+  50:	01ac 3f3c      	bclr %d0,%a4@(16188)
+  54:	0001 a9f0      	orib #-16,%d1
+  58:	1bfc           	.short 0x1bfc
+  5a:	3f3c 0001      	movew #1,%sp@-
+  5e:	a9f0           	.short 0xa9f0
+  60:	605a           	bras 0xbc
+  62:	3f3c 0001      	movew #1,%sp@-
+  66:	a9f0           	.short 0xa9f0
+  68:	07fa           	.short 0x07fa
+  6a:	3f3c 0001      	movew #1,%sp@-
+  6e:	a9f0           	.short 0xa9f0
+  70:	59ce 3f3c      	dbvs %d6,0x3fae
+  74:	0001 a9f0      	orib #-16,%d1
+  78:	5fca 3f3c      	dble %d2,0x3fb6
+  7c:	0001 a9f0      	orib #-16,%d1
+  80:	0192           	bclr %d0,%a2@
+  82:	3f3c 0001      	movew #1,%sp@-
+  86:	a9f0           	.short 0xa9f0
+  88:	5586           	subql #2,%d6
+  8a:	3f3c 0001      	movew #1,%sp@-
+  8e:	a9f0           	.short 0xa9f0
+  90:	624e           	bhis 0xe0
+  92:	3f3c 0001      	movew #1,%sp@-
+  96:	a9f0           	.short 0xa9f0
+  98:	6238           	bhis 0xd2
+  9a:	3f3c 0001      	movew #1,%sp@-
+  9e:	a9f0           	.short 0xa9f0
+  a0:	0a2a 3f3c 0001 	eorib #60,%a2@(1)
+  a6:	a9f0           	.short 0xa9f0
+  a8:	59b2 3f3c 0001 	subql #4,%a2@(1a9f0)@(0,%d3:l:8)
+  ae:	a9f0 
+  b0:	6290           	bhis 0x42
+  b2:	3f3c 0001      	movew #1,%sp@-
+  b6:	a9f0           	.short 0xa9f0
+  b8:	57f0 3f3c 0001 	seq %a0@(1a9f0)@(0,%d3:l:8)
+  be:	a9f0 
+  c0:	5718           	subqb #3,%a0@+
+  c2:	3f3c 0001      	movew #1,%sp@-
+  c6:	a9f0           	.short 0xa9f0
+  c8:	631c           	blss 0xe6
+  ca:	3f3c 0001      	movew #1,%sp@-
+  ce:	a9f0           	.short 0xa9f0
+  d0:	62d8           	bhis 0xaa
+  d2:	3f3c 0001      	movew #1,%sp@-
+  d6:	a9f0           	.short 0xa9f0
+  d8:	61fe           	bsrs 0xd8
+  da:	3f3c 0001      	movew #1,%sp@-
+  de:	a9f0           	.short 0xa9f0
+  e0:	0074 3f3c 0001 	oriw #16188,%a4@(1,%d0:w)
+  e6:	a9f0           	.short 0xa9f0
+  e8:	1642           	.short 0x1642
+  ea:	3f3c 0001      	movew #1,%sp@-
+  ee:	a9f0           	.short 0xa9f0
+  f0:	6258           	bhis 0x14a
+  f2:	3f3c 0001      	movew #1,%sp@-
+  f6:	a9f0           	.short 0xa9f0
+  f8:	6276           	bhis 0x170
+  fa:	3f3c 0001      	movew #1,%sp@-
+  fe:	a9f0           	.short 0xa9f0
+ 100:	626c           	bhis 0x16e
+ 102:	3f3c 0001      	movew #1,%sp@-
+ 106:	a9f0           	.short 0xa9f0
+ 108:	6262           	bhis 0x16c
+ 10a:	3f3c 0001      	movew #1,%sp@-
+ 10e:	a9f0           	.short 0xa9f0
+ 110:	0118           	btst %d0,%a0@+
+ 112:	3f3c 0001      	movew #1,%sp@-
+ 116:	a9f0           	.short 0xa9f0
+ 118:	00fc           	.short 0x00fc
+ 11a:	3f3c 0001      	movew #1,%sp@-
+ 11e:	a9f0           	.short 0xa9f0
+ 120:	3c46           	moveaw %d6,%fp
+ 122:	3f3c 0001      	movew #1,%sp@-
+ 126:	a9f0           	.short 0xa9f0
+ 128:	387a 3f3c      	moveaw %pc@(0x4066),%a4
+ 12c:	0001 a9f0      	orib #-16,%d1
+ 130:	0000 3f3c      	orib #60,%d0
+ 134:	0001 a9f0      	orib #-16,%d1
+ 138:	06c4           	.short 0x06c4
+ 13a:	3f3c 0001      	movew #1,%sp@-
+ 13e:	a9f0           	.short 0xa9f0
+ 140:	06e6           	.short 0x06e6
+ 142:	3f3c 0001      	movew #1,%sp@-
+ 146:	a9f0           	.short 0xa9f0
+ 148:	0508 3f3c      	movepw %a0@(16188),%d2
+ 14c:	0001 a9f0      	orib #-16,%d1
+ 150:	04c2           	.short 0x04c2
+ 152:	3f3c 0001      	movew #1,%sp@-
+ 156:	a9f0           	.short 0xa9f0
+ 158:	6208           	bhis 0x162
+ 15a:	3f3c 0001      	movew #1,%sp@-
+ 15e:	a9f0           	.short 0xa9f0
+ 160:	6288           	bhis 0xea
+ 162:	3f3c 0001      	movew #1,%sp@-
+ 166:	a9f0           	.short 0xa9f0
+ 168:	4678 3f3c      	notw 0x3f3c
+ 16c:	0001 a9f0      	orib #-16,%d1
+ 170:	5930 3f3c 0001 	subqb #4,%a0@(1a9f0)@(0,%d3:l:8)
+ 176:	a9f0 
+ 178:	610e           	bsrs 0x188
+ 17a:	3f3c 0001      	movew #1,%sp@-
+ 17e:	a9f0           	.short 0xa9f0
+ 180:	0c88           	.short 0x0c88
+ 182:	3f3c 0001      	movew #1,%sp@-
+ 186:	a9f0           	.short 0xa9f0
+ 188:	555a           	subqw #2,%a2@+
+ 18a:	3f3c 0001      	movew #1,%sp@-
+ 18e:	a9f0           	.short 0xa9f0
+ 190:	523e           	.short 0x523e
+ 192:	3f3c 0001      	movew #1,%sp@-
+ 196:	a9f0           	.short 0xa9f0
+ 198:	6242           	bhis 0x1dc
+ 19a:	3f3c 0001      	movew #1,%sp@-
+ 19e:	a9f0           	.short 0xa9f0
+ 1a0:	622c           	bhis 0x1ce
+ 1a2:	3f3c 0001      	movew #1,%sp@-
+ 1a6:	a9f0           	.short 0xa9f0
+ 1a8:	601e           	bras 0x1c8
+ 1aa:	3f3c 0001      	movew #1,%sp@-
+ 1ae:	a9f0           	.short 0xa9f0
+ 1b0:	5950           	subqw #4,%a0@
+ 1b2:	3f3c 0001      	movew #1,%sp@-
+ 1b6:	a9f0           	.short 0xa9f0
+ 1b8:	63b8           	blss 0x172
+ 1ba:	3f3c 0001      	movew #1,%sp@-
+ 1be:	a9f0           	.short 0xa9f0
+ 1c0:	6386           	blss 0x148
+ 1c2:	3f3c 0001      	movew #1,%sp@-
+ 1c6:	a9f0           	.short 0xa9f0
+ 1c8:	633a           	blss 0x204
+ 1ca:	3f3c 0001      	movew #1,%sp@-
+ 1ce:	a9f0           	.short 0xa9f0
+ 1d0:	63a4           	blss 0x176
+ 1d2:	3f3c 0001      	movew #1,%sp@-
+ 1d6:	a9f0           	.short 0xa9f0
+ 1d8:	63ec           	blss 0x1c6
+ 1da:	3f3c 0001      	movew #1,%sp@-
+ 1de:	a9f0           	.short 0xa9f0
+ 1e0:	63e4           	blss 0x1c6
+ 1e2:	3f3c 0001      	movew #1,%sp@-
+ 1e6:	a9f0           	.short 0xa9f0
+ 1e8:	607a           	bras 0x264
+ 1ea:	3f3c 0001      	movew #1,%sp@-
+ 1ee:	a9f0           	.short 0xa9f0
+ 1f0:	0d60           	bchg %d6,%a0@-
+ 1f2:	3f3c 0001      	movew #1,%sp@-
+ 1f6:	a9f0           	.short 0xa9f0
+ 1f8:	0edc           	.short 0x0edc
+ 1fa:	3f3c 0001      	movew #1,%sp@-
+ 1fe:	a9f0           	.short 0xa9f0
+ 200:	0490 3f3c 0001 	subil #1060896769,%a0@
+ 206:	a9f0           	.short 0xa9f0
+ 208:	6222           	bhis 0x22c
+ 20a:	3f3c 0001      	movew #1,%sp@-
+ 20e:	a9f0           	.short 0xa9f0
+ 210:	62fa           	bhis 0x20c
+ 212:	3f3c 0001      	movew #1,%sp@-
+ 216:	a9f0           	.short 0xa9f0
+ 218:	6218           	bhis 0x232
+ 21a:	3f3c 0001      	movew #1,%sp@-
+ 21e:	a9f0           	.short 0xa9f0
+ 220:	0294 3f3c 0001 	andil #1060896769,%a4@
+ 226:	a9f0           	.short 0xa9f0
+ 228:	0304           	btst %d1,%d4
+ 22a:	3f3c 0001      	movew #1,%sp@-
+ 22e:	a9f0           	.short 0xa9f0
+ 230:	4472 3f3c 0001 	negw %a2@(1a9f0)@(0,%d3:l:8)
+ 236:	a9f0 
+ 238:	3976 3f3c 0001 	movew %fp@(1a9f0)@(0,%d3:l:8),%a4@(21938)
+ 23e:	a9f0 55b2 
+ 242:	3f3c 0001      	movew #1,%sp@-
+ 246:	a9f0           	.short 0xa9f0
+ 248:	5994           	subql #4,%a4@
+ 24a:	3f3c 0001      	movew #1,%sp@-
+ 24e:	a9f0           	.short 0xa9f0
+ 250:	6328           	blss 0x27a
+ 252:	3f3c 0001      	movew #1,%sp@-
+ 256:	a9f0           	.short 0xa9f0
+ 258:	584a           	addqw #4,%a2
+ 25a:	3f3c 0001      	movew #1,%sp@-
+ 25e:	a9f0           	.short 0xa9f0
+ 260:	555e           	subqw #2,%fp@+
+ 262:	3f3c 0001      	movew #1,%sp@-
+ 266:	a9f0           	.short 0xa9f0
+ 268:	38d0           	movew %a0@,%a4@+
+ 26a:	3f3c 0001      	movew #1,%sp@-
+ 26e:	a9f0           	.short 0xa9f0
+ 270:	5842           	addqw #4,%d2
+ 272:	3f3c 0001      	movew #1,%sp@-
+ 276:	a9f0           	.short 0xa9f0
+ 278:	6076           	bras 0x2f0
+ 27a:	3f3c 0001      	movew #1,%sp@-
+ 27e:	a9f0           	.short 0xa9f0
+ 280:	5d4a           	subqw #6,%a2
+ 282:	3f3c 0001      	movew #1,%sp@-
+ 286:	a9f0           	.short 0xa9f0
+ 288:	01d4           	bset %d0,%a4@
+ 28a:	3f3c 0002      	movew #2,%sp@-
+ 28e:	a9f0           	.short 0xa9f0
+ 290:	053c 3f3c      	btst %d2,#60
+ 294:	0002 a9f0      	orib #-16,%d2
+ 298:	0102           	btst %d0,%d2
+ 29a:	3f3c 0002      	movew #2,%sp@-
+ 29e:	a9f0           	.short 0xa9f0
+ 2a0:	0000 3f3c      	orib #60,%d0
+ 2a4:	0002 a9f0      	orib #-16,%d2
+ 2a8:	077a           	.short 0x077a
+ 2aa:	3f3c 0002      	movew #2,%sp@-
+ 2ae:	a9f0           	.short 0xa9f0
+ 2b0:	01da           	bset %d0,%a2@+
+ 2b2:	3f3c 0003      	movew #3,%sp@-
+ 2b6:	a9f0           	.short 0xa9f0
+ 2b8:	0000 3f3c      	orib #60,%d0
+ 2bc:	0003 a9f0      	orib #-16,%d3
+ 2c0:	0116           	btst %d0,%fp@
+ 2c2:	3f3c 0003      	movew #3,%sp@-
+ 2c6:	a9f0           	.short 0xa9f0
+ 2c8:	0062 3f3c      	oriw #16188,%a2@-
+ 2cc:	0004 a9f0      	orib #-16,%d4
+ 2d0:	0152           	bchg %d0,%a2@
+ 2d2:	3f3c 0005      	movew #5,%sp@-
+ 2d6:	a9f0           	.short 0xa9f0
+ 2d8:	013c 3f3c      	btst %d0,#60
+ 2dc:	0006 a9f0      	orib #-16,%d6
+ 2e0:	0234 3f3c 0006 	andib #60,%a4@(6,%d0:w)
+ 2e6:	a9f0           	.short 0xa9f0
+ 2e8:	0000 3f3c      	orib #60,%d0
+ 2ec:	0006 a9f0      	orib #-16,%d6
+ 2f0:	01c2           	bset %d0,%d2
+ 2f2:	3f3c 0006      	movew #6,%sp@-
+ 2f6:	a9f0           	.short 0xa9f0
+ 2f8:	005e 3f3c      	oriw #16188,%fp@+
+ 2fc:	0007 a9f0      	orib #-16,%d7
+ 300:	011a           	btst %d0,%a2@+
+ 302:	3f3c 0008      	movew #8,%sp@-
+ 306:	a9f0           	.short 0xa9f0
+ 308:	0118           	btst %d0,%a0@+
+ 30a:	3f3c 0009      	movew #9,%sp@-
+ 30e:	a9f0           	.short 0xa9f0
+ 310:	0000 3f3c      	orib #60,%d0
+ 314:	000a           	.short 0x000a
+ 316:	a9f0           	.short 0xa9f0
+ 318:	019e           	bclr %d0,%fp@+
+ 31a:	3f3c 000b      	movew #11,%sp@-
+ 31e:	a9f0           	.short 0xa9f0
+ 320:	0000 3f3c      	orib #60,%d0
+ 324:	000b           	.short 0x000b
+ 326:	a9f0           	.short 0xa9f0
+ 328:	0000 3f3c      	orib #60,%d0
+ 32c:	000c           	.short 0x000c
+ 32e:	a9f0           	.short 0xa9f0

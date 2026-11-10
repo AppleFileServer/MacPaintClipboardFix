@@ -1,0 +1,9 @@
+# Apple material: not ours to publish (see README)
+source/
+originals/
+hardware/
+# Build and run output
+build*/
+probe/build/
+runs/
+.DS_Store

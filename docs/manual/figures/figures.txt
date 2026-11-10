@@ -1,0 +1,18 @@
+# The MacPaint User's Guide's figures (figures.md), made by
+# tools/manual/make-figures.py from exact 512 x 342 screens in
+# docs/manual/shots/ (already one PNG pixel per Mac pixel).
+screen 0 0 1
+
+# S01: the screen just after starting (in the text column at 0.6 pt per pixel)
+s01-screen    docs/manual/shots/2026-10-25-claude/S01.png full
+# The whole screen with Example 1, for the cover, in the cover scan's pale blue
+e01-cover     docs/manual/shots/2026-10-25-claude/E01.png full desk=500,196,12,20 paper=c1dce6
+# S05: Show Page, the whole screen
+s05-show-page docs/manual/shots/2026-10-25-claude/S05.png full
+# S06: the window after the grabber has moved the view (its top, torn)
+s06-grabber   docs/manual/shots/2026-10-25-claude/S06.png 78,26,422,150 torn
+# M03: the Edit menu, shot (Jack, 21 Oct)
+m03-edit      docs/manual/shots/2026-10-21-host/Screenshot%202026-10-21%20at%2013.32.39.png menu
+# The opener: Example 1 in grey, split across the spread
+c1-opener-l   docs/manual/shots/2026-10-25-claude/E01.png 0,20,256,322 ink=c4c4c4 desk=500,196,12,20
+c1-opener-r   docs/manual/shots/2026-10-25-claude/E01.png 256,20,256,322 ink=c4c4c4 desk=500,196,12,20

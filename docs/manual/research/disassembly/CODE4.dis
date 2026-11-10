@@ -1,0 +1,264 @@
+
+/private/tmp/claude-501/-Users-jack/0c8927f7-48e8-4353-9620-93e841cc2273/scratchpad/macpaint-features/bin/CODE4.bin:     file format binary
+
+
+Disassembly of section .data:
+
+00000000 <.data>:
+   0:	02b8 0001 4e56 	andil #85590,0x0
+   6:	0000 
+   8:	422e 000a      	clrb %fp@(10)
+   c:	4a6e 0008      	tstw %fp@(8)
+  10:	6714           	beqs 0x26
+  12:	4267           	clrw %sp@-
+  14:	3f3c 083c      	movew #2108,%sp@-
+  18:	4ead 0192      	jsr %a5@(402)
+  1c:	3d5f 0008      	movew %sp@+,%fp@(8)
+  20:	1d7c 0001 000a 	moveb #1,%fp@(10)
+  26:	4e5e           	unlk %fp
+  28:	205f           	moveal %sp@+,%a0
+  2a:	544f           	addqw #2,%sp
+  2c:	4ed0           	jmp %a0@
+  2e:	4e56 fffc      	linkw %fp,#-4
+  32:	4267           	clrw %sp@-
+  34:	3f2d ff74      	movew %a5@(-140),%sp@-
+  38:	486d ff70      	pea %a5@(-144)
+  3c:	302e 0008      	movew %fp@(8),%d0
+  40:	48c0           	extl %d0
+  42:	2f00           	movel %d0,%sp@-
+  44:	2f2e 000a      	movel %fp@(10),%sp@-
+  48:	4ead 028a      	jsr %a5@(650)
+  4c:	3d5f fffe      	movew %sp@+,%fp@(-2)
+  50:	4267           	clrw %sp@-
+  52:	3f2e fffe      	movew %fp@(-2),%sp@-
+  56:	4eba ffac      	jsr %pc@(0x4)
+  5a:	1d5f fffd      	moveb %sp@+,%fp@(-3)
+  5e:	4e5e           	unlk %fp
+  60:	205f           	moveal %sp@+,%a0
+  62:	5c4f           	addqw #6,%sp
+  64:	4ed0           	jmp %a0@
+  66:	4e56 ffa8      	linkw %fp,#-88
+  6a:	48e7 0118      	moveml %d7/%a3-%a4,%sp@-
+  6e:	102d fb85      	moveb %a5@(-1147),%d0
+  72:	802d fb95      	orb %a5@(-1131),%d0
+  76:	0a00 0001      	eorib #1,%d0
+  7a:	6704           	beqs 0x80
+  7c:	6000 0270      	braw 0x2ee
+  80:	42a7           	clrl %sp@-
+  82:	a9fc           	.short 0xa9fc
+  84:	4a9f           	tstl %sp@+
+  86:	6704           	beqs 0x8c
+  88:	6000 0264      	braw 0x2ee
+  8c:	42a7           	clrl %sp@-
+  8e:	a9fa           	.short 0xa9fa
+  90:	4a9f           	tstl %sp@+
+  92:	6704           	beqs 0x98
+  94:	6000 0258      	braw 0x2ee
+  98:	102d fb96      	moveb %a5@(-1130),%d0
+  9c:	6704           	beqs 0xa2
+  9e:	4ead 002a      	jsr %a5@(42)
+  a2:	42a7           	clrl %sp@-
+  a4:	a9f9           	.short 0xa9f9
+  a6:	285f           	moveal %sp@+,%a4
+  a8:	4267           	clrw %sp@-
+  aa:	4267           	clrw %sp@-
+  ac:	4267           	clrw %sp@-
+  ae:	2f2c 000c      	movel %a4@(12),%sp@-
+  b2:	42a7           	clrl %sp@-
+  b4:	486d ff74      	pea %a5@(-140)
+  b8:	4ead 01ba      	jsr %a5@(442)
+  bc:	3e1f           	movew %sp@+,%d7
+  be:	41ee ffb4      	lea %fp@(-76),%a0
+  c2:	43ed fb8c      	lea %a5@(-1140),%a1
+  c6:	20d9           	movel %a1@+,%a0@+
+  c8:	20d9           	movel %a1@+,%a0@+
+  ca:	42ad ff70      	clrl %a5@(-144)
+  ce:	2d7c 5049 4354 	movel #1346978644,%fp@(-62)
+  d4:	ffc2 
+  d6:	4267           	clrw %sp@-
+  d8:	3f2d ff74      	movew %a5@(-140),%sp@-
+  dc:	486d ff70      	pea %a5@(-144)
+  e0:	7004           	moveq #4,%d0
+  e2:	2f00           	movel %d0,%sp@-
+  e4:	41ee ffc2      	lea %fp@(-62),%a0
+  e8:	2f08           	movel %a0,%sp@-
+  ea:	4ead 028a      	jsr %a5@(650)
+  ee:	3e1f           	movew %sp@+,%d7
+  f0:	4267           	clrw %sp@-
+  f2:	3f07           	movew %d7,%sp@-
+  f4:	4eba ff0e      	jsr %pc@(0x4)
+  f8:	101f           	moveb %sp@+,%d0
+  fa:	6600 01c4      	bnew 0x2c0
+  fe:	4267           	clrw %sp@-
+ 100:	3f2d ff74      	movew %a5@(-140),%sp@-
+ 104:	486d ff70      	pea %a5@(-144)
+ 108:	7006           	moveq #6,%d0
+ 10a:	2f00           	movel %d0,%sp@-
+ 10c:	41ed fbc8      	lea %a5@(-1080),%a0
+ 110:	2f08           	movel %a0,%sp@-
+ 112:	4ead 028a      	jsr %a5@(650)
+ 116:	3e1f           	movew %sp@+,%d7
+ 118:	4267           	clrw %sp@-
+ 11a:	3f07           	movew %d7,%sp@-
+ 11c:	4eba fee6      	jsr %pc@(0x4)
+ 120:	101f           	moveb %sp@+,%d0
+ 122:	6600 019c      	bnew 0x2c0
+ 126:	4267           	clrw %sp@-
+ 128:	3f2d ff74      	movew %a5@(-140),%sp@-
+ 12c:	486d ff70      	pea %a5@(-144)
+ 130:	7008           	moveq #8,%d0
+ 132:	2f00           	movel %d0,%sp@-
+ 134:	41ee ffb4      	lea %fp@(-76),%a0
+ 138:	2f08           	movel %a0,%sp@-
+ 13a:	4ead 028a      	jsr %a5@(650)
+ 13e:	3e1f           	movew %sp@+,%d7
+ 140:	4267           	clrw %sp@-
+ 142:	3f07           	movew %d7,%sp@-
+ 144:	4eba febe      	jsr %pc@(0x4)
+ 148:	101f           	moveb %sp@+,%d0
+ 14a:	6600 0174      	bnew 0x2c0
+ 14e:	102d fb85      	moveb %a5@(-1147),%d0
+ 152:	6710           	beqs 0x164
+ 154:	486d fb8c      	pea %a5@(-1140)
+ 158:	486d fb8c      	pea %a5@(-1140)
+ 15c:	3f3c 0007      	movew #7,%sp@-
+ 160:	4ead 0162      	jsr %a5@(354)
+ 164:	41ed fecc      	lea %a5@(-308),%a0
+ 168:	2f08           	movel %a0,%sp@-
+ 16a:	a873           	.short 0xa873
+ 16c:	486e ffca      	pea %fp@(-54)
+ 170:	a8ea           	.short 0xa8ea
+ 172:	41fa feba      	lea %pc@(0x2e),%a0
+ 176:	2d48 fffa      	movel %a0,%fp@(-6)
+ 17a:	41ee ffca      	lea %fp@(-54),%a0
+ 17e:	226d 9872      	moveal %a5@(-26510),%a1
+ 182:	2348 0068      	movel %a0,%a1@(104)
+ 186:	42a7           	clrl %sp@-
+ 188:	486e ffb4      	pea %fp@(-76)
+ 18c:	a8f3           	.short 0xa8f3
+ 18e:	265f           	moveal %sp@+,%a3
+ 190:	102d fb85      	moveb %a5@(-1147),%d0
+ 194:	670a           	beqs 0x1a0
+ 196:	3f3c 3039      	movew #12345,%sp@-
+ 19a:	4267           	clrw %sp@-
+ 19c:	42a7           	clrl %sp@-
+ 19e:	a8f2           	.short 0xa8f2
+ 1a0:	3f3c 0082      	movew #130,%sp@-
+ 1a4:	4267           	clrw %sp@-
+ 1a6:	42a7           	clrl %sp@-
+ 1a8:	a8f2           	.short 0xa8f2
+ 1aa:	3f3c 008e      	movew #142,%sp@-
+ 1ae:	4267           	clrw %sp@-
+ 1b0:	42a7           	clrl %sp@-
+ 1b2:	a8f2           	.short 0xa8f2
+ 1b4:	486d fbc0      	pea %a5@(-1088)
+ 1b8:	a87b           	.short 0xa87b
+ 1ba:	41ee ffa8      	lea %fp@(-88),%a0
+ 1be:	43ed fb8c      	lea %a5@(-1140),%a1
+ 1c2:	20d9           	movel %a1@+,%a0@+
+ 1c4:	20d9           	movel %a1@+,%a0@+
+ 1c6:	4267           	clrw %sp@-
+ 1c8:	486e ffa8      	pea %fp@(-88)
+ 1cc:	a8ae           	.short 0xa8ae
+ 1ce:	101f           	moveb %sp@+,%d0
+ 1d0:	0a00 0001      	eorib #1,%d0
+ 1d4:	6740           	beqs 0x216
+ 1d6:	4267           	clrw %sp@-
+ 1d8:	3f2e ffac      	movew %fp@(-84),%sp@-
+ 1dc:	302e ffa8      	movew %fp@(-88),%d0
+ 1e0:	d07c 003c      	addw #60,%d0
+ 1e4:	3f00           	movew %d0,%sp@-
+ 1e6:	4ead 0182      	jsr %a5@(386)
+ 1ea:	3d5f ffac      	movew %sp@+,%fp@(-84)
+ 1ee:	486d c956      	pea %a5@(-13994)
+ 1f2:	206d 9872      	moveal %a5@(-26510),%a0
+ 1f6:	4868 0002      	pea %a0@(2)
+ 1fa:	486e ffa8      	pea %fp@(-88)
+ 1fe:	486e ffa8      	pea %fp@(-88)
+ 202:	4267           	clrw %sp@-
+ 204:	42a7           	clrl %sp@-
+ 206:	a8ec           	.short 0xa8ec
+ 208:	3d6e ffac ffa8 	movew %fp@(-84),%fp@(-88)
+ 20e:	3d6d fb90 ffac 	movew %a5@(-1136),%fp@(-84)
+ 214:	60b0           	bras 0x1c6
+ 216:	3f3c 008f      	movew #143,%sp@-
+ 21a:	4267           	clrw %sp@-
+ 21c:	42a7           	clrl %sp@-
+ 21e:	a8f2           	.short 0xa8f2
+ 220:	3f3c 0083      	movew #131,%sp@-
+ 224:	4267           	clrw %sp@-
+ 226:	42a7           	clrl %sp@-
+ 228:	a8f2           	.short 0xa8f2
+ 22a:	a8f4           	.short 0xa8f4
+ 22c:	2f0b           	movel %a3,%sp@-
+ 22e:	a8f5           	.short 0xa8f5
+ 230:	206d 9872      	moveal %a5@(-26510),%a0
+ 234:	42a8 0068      	clrl %a0@(104)
+ 238:	102d fb85      	moveb %a5@(-1147),%d0
+ 23c:	670e           	beqs 0x24c
+ 23e:	102d fb52      	moveb %a5@(-1198),%d0
+ 242:	6704           	beqs 0x248
+ 244:	4ead 015a      	jsr %a5@(346)
+ 248:	4ead 0212      	jsr %a5@(530)
+ 24c:	4267           	clrw %sp@-
+ 24e:	3f2d ff74      	movew %a5@(-140),%sp@-
+ 252:	2f2d ff70      	movel %a5@(-144),%sp@-
+ 256:	4ead 0222      	jsr %a5@(546)
+ 25a:	3e1f           	movew %sp@+,%d7
+ 25c:	28ad ff70      	movel %a5@(-144),%a4@
+ 260:	202d ff70      	movel %a5@(-144),%d0
+ 264:	5180           	subql #8,%d0
+ 266:	2d40 ffbc      	movel %d0,%fp@(-68)
+ 26a:	3d6e ffbe ffc0 	movew %fp@(-66),%fp@(-64)
+ 270:	7004           	moveq #4,%d0
+ 272:	2b40 ff70      	movel %d0,%a5@(-144)
+ 276:	4267           	clrw %sp@-
+ 278:	3f2d ff74      	movew %a5@(-140),%sp@-
+ 27c:	486d ff70      	pea %a5@(-144)
+ 280:	7004           	moveq #4,%d0
+ 282:	2f00           	movel %d0,%sp@-
+ 284:	41ee ffbc      	lea %fp@(-68),%a0
+ 288:	2f08           	movel %a0,%sp@-
+ 28a:	4ead 028a      	jsr %a5@(650)
+ 28e:	3e1f           	movew %sp@+,%d7
+ 290:	4267           	clrw %sp@-
+ 292:	3f07           	movew %d7,%sp@-
+ 294:	4eba fd6e      	jsr %pc@(0x4)
+ 298:	101f           	moveb %sp@+,%d0
+ 29a:	6624           	bnes 0x2c0
+ 29c:	4267           	clrw %sp@-
+ 29e:	3f2d ff74      	movew %a5@(-140),%sp@-
+ 2a2:	486d ff70      	pea %a5@(-144)
+ 2a6:	7002           	moveq #2,%d0
+ 2a8:	2f00           	movel %d0,%sp@-
+ 2aa:	41ee ffc0      	lea %fp@(-64),%a0
+ 2ae:	2f08           	movel %a0,%sp@-
+ 2b0:	4ead 028a      	jsr %a5@(650)
+ 2b4:	3e1f           	movew %sp@+,%d7
+ 2b6:	4267           	clrw %sp@-
+ 2b8:	3f07           	movew %d7,%sp@-
+ 2ba:	4eba fd48      	jsr %pc@(0x4)
+ 2be:	101f           	moveb %sp@+,%d0
+ 2c0:	4267           	clrw %sp@-
+ 2c2:	3f2d ff74      	movew %a5@(-140),%sp@-
+ 2c6:	4ead 0072      	jsr %a5@(114)
+ 2ca:	3e1f           	movew %sp@+,%d7
+ 2cc:	4267           	clrw %sp@-
+ 2ce:	42a7           	clrl %sp@-
+ 2d0:	4267           	clrw %sp@-
+ 2d2:	4ead 00e2      	jsr %a5@(226)
+ 2d6:	3e1f           	movew %sp@+,%d7
+ 2d8:	102e 0008      	moveb %fp@(8),%d0
+ 2dc:	6710           	beqs 0x2ee
+ 2de:	4ead 015a      	jsr %a5@(346)
+ 2e2:	4ead 003a      	jsr %a5@(58)
+ 2e6:	422d fb95      	clrb %a5@(-1131)
+ 2ea:	422d fb85      	clrb %a5@(-1147)
+ 2ee:	4cdf 1880      	moveml %sp@+,%d7/%a3-%a4
+ 2f2:	4e5e           	unlk %fp
+ 2f4:	205f           	moveal %sp@+,%a0
+ 2f6:	544f           	addqw #2,%sp
+ 2f8:	4ed0           	jmp %a0@
+ 2fa:	8100           	sbcd %d0,%d0
+ 2fc:	0008           	.short 0x0008
+ 2fe:	0000 02f6      	orib #-10,%d0

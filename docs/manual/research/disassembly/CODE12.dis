@@ -1,0 +1,76 @@
+
+/private/tmp/claude-501/-Users-jack/0c8927f7-48e8-4353-9620-93e841cc2273/scratchpad/macpaint-features/bin/CODE12.bin:     file format binary
+
+
+Disassembly of section .data:
+
+00000000 <.data>:
+   0:	0318           	btst %d1,%a0@+
+   2:	0001 4e56      	orib #86,%d1
+   6:	ffe4           	.short 0xffe4
+   8:	2f0c           	movel %a4,%sp@-
+   a:	4ead 0152      	jsr %a5@(338)
+   e:	42a7           	clrl %sp@-
+  10:	3f2e 0008      	movew %fp@(8),%sp@-
+  14:	a9bc           	.short 0xa9bc
+  16:	285f           	moveal %sp@+,%a4
+  18:	200c           	movel %a4,%d0
+  1a:	6604           	bnes 0x20
+  1c:	6000 0090      	braw 0xae
+  20:	2f0c           	movel %a4,%sp@-
+  22:	4ead 010a      	jsr %a5@(266)
+  26:	2f0c           	movel %a4,%sp@-
+  28:	486d fedc      	pea %a5@(-292)
+  2c:	a8f6           	.short 0xa8f6
+  2e:	2f0c           	movel %a4,%sp@-
+  30:	4ead 0112      	jsr %a5@(274)
+  34:	2d6d fedc ffe8 	movel %a5@(-292),%fp@(-24)
+  3a:	4267           	clrw %sp@-
+  3c:	4267           	clrw %sp@-
+  3e:	a878           	.short 0xa878
+  40:	2f2d fe2c      	movel %a5@(-468),%sp@-
+  44:	a957           	.short 0xa957
+  46:	4267           	clrw %sp@-
+  48:	3f3c ffff      	movew #-1,%sp@-
+  4c:	486e ffec      	pea %fp@(-20)
+  50:	a970           	.short 0xa970
+  52:	0c6e 0001 ffec 	cmpiw #1,%fp@(-20)
+  58:	57c0           	seq %d0
+  5a:	c01f           	andb %sp@+,%d0
+  5c:	67e8           	beqs 0x46
+  5e:	486e fff6      	pea %fp@(-10)
+  62:	a871           	.short 0xa871
+  64:	4267           	clrw %sp@-
+  66:	2f2e fff6      	movel %fp@(-10),%sp@-
+  6a:	41ed fecc      	lea %a5@(-308),%a0
+  6e:	2f08           	movel %a0,%sp@-
+  70:	486e ffe4      	pea %fp@(-28)
+  74:	a96c           	.short 0xa96c
+  76:	4a5f           	tstw %sp@+
+  78:	660a           	bnes 0x84
+  7a:	3f3c 0008      	movew #8,%sp@-
+  7e:	4ead 0262      	jsr %a5@(610)
+  82:	6028           	bras 0xac
+  84:	4267           	clrw %sp@-
+  86:	2f2e ffe4      	movel %fp@(-28),%sp@-
+  8a:	2f2e fff6      	movel %fp@(-10),%sp@-
+  8e:	42a7           	clrl %sp@-
+  90:	a968           	.short 0xa968
+  92:	4a5f           	tstw %sp@+
+  94:	6716           	beqs 0xac
+  96:	2f2d fe2c      	movel %a5@(-468),%sp@-
+  9a:	a958           	.short 0xa958
+  9c:	3f2e ffea      	movew %fp@(-22),%sp@-
+  a0:	3f2e ffe8      	movew %fp@(-24),%sp@-
+  a4:	a878           	.short 0xa878
+  a6:	4ead 003a      	jsr %a5@(58)
+  aa:	6002           	bras 0xae
+  ac:	6098           	bras 0x46
+  ae:	285f           	moveal %sp@+,%a4
+  b0:	4e5e           	unlk %fp
+  b2:	205f           	moveal %sp@+,%a0
+  b4:	544f           	addqw #2,%sp
+  b6:	4ed0           	jmp %a0@
+  b8:	8100           	sbcd %d0,%d0
+  ba:	0008           	.short 0x0008
+  bc:	0000 00b4      	orib #-76,%d0
