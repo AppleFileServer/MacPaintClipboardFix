@@ -31,7 +31,7 @@ from PIL import Image
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.join(HERE, "..", "..")
-PDF = sys.argv[1] if len(sys.argv) > 1 else os.path.expanduser("~/MacPlus/Manuals/MacPaint Manual 1984.pdf")
+PDF = sys.argv[1] if len(sys.argv) > 1 else os.path.expanduser("~/MacPlusProjects/MacDevelopmentReferenceLibrary/MacPlus Manuals/MacPaint Manual 1984.pdf")
 PRIVATE = os.environ.get("MANUAL_ASSETS",
                          os.path.expanduser("~/MacPlusProjects/manual-assets-private"))
 HEADER = os.path.join(ROOT, "docs", "manual", "shots", "2026-10-25-claude", "Example 1.pntg")

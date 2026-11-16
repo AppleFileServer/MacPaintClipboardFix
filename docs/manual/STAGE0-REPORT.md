@@ -34,8 +34,8 @@ from the MacPaint 1.3 source, probably true of 1.5 but not proven;
 | Build scripts | `MacMusicPlayer/tools/manual/`, `MacWellness/tools/manual/` (per-project copies) | — |
 | Shared tools | `manual-tools/`: headless Chrome 155, Paged.js 0.4.3, EB Garamond plus renamed builds, venv | Archived in `environment-1.0/manual-tools.tar.gz` |
 | Private Apple artwork for own-use editions | `manual-assets-private/` (MacDraw cover, rainbow logo, per-product covers) | Never shared |
-| MacDraw manual (the suite's visual reference) | `~/MacPlus/Manuals/MacDraw Manual.pdf` (123 pp) | Reference scan |
-| Original MacPaint manual | `~/MacPlus/Manuals/MacPaint Manual 1984.pdf`, `~/Macintosh/Macintosh Manuals/MacPaint 1983.pdf` | The **same scan** (pixel-identical renders). Part no. 030-0848-D, ©1983, a 1985 printing |
+| MacDraw manual (the suite's visual reference) | `~/MacPlusProjects/MacDevelopmentReferenceLibrary/MacPlus Manuals/MacDraw Manual.pdf` (123 pp) | Reference scan |
+| Original MacPaint manual | `~/MacPlusProjects/MacDevelopmentReferenceLibrary/MacPlus Manuals/MacPaint Manual 1984.pdf`, `~/MacPlusProjects/MacDevelopmentReferenceLibrary/Macintosh Manuals/MacPaint 1983.pdf` | The **same scan** (pixel-identical renders). Part no. 030-0848-D, ©1983, a 1985 printing |
 | MacPaint 1.5 (your copy) and 1.3 source | `originals/`, `source/` | Your 1.5 is identical, resource for resource, to archive.org's 1.5 |
 | MacPaint's built-in help screens | `research/help-introduction-PICT2400.png`, `research/help-shortcuts-PICT2401.png` | Real 1-bit 416×240 pictures from the 1.5 binary |
 
